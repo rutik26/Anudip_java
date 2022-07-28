@@ -1,0 +1,20 @@
+INSERT INTO `sql-lab`.`employee`
+(`eid`,
+`fname`,
+`lname`,
+`dept`)
+VALUES
+(
+6,
+'rutik',
+'kalu',
+'acc');
+
+
+select * from `sql-lab`.`employee`
+
+
+select dept,count(*) from `sql-lab`.`employee` where dept ='hr'
+
+
+select * from `sql-lab`.`employee` where fname like 'r%'
